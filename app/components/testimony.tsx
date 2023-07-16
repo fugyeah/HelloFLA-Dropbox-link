@@ -38,64 +38,30 @@ export const Testimonials = () => {
     {
       content: (
         <div>
-          <p>
-            My cursory audit of <TwitterHandle>@chronark_</TwitterHandle>'s envshare:
-          </p>
-          <p>
-            It is light, extremely functional, and does its symmetric block cipher correctly, unique initialization
-            vectors, decryption keys derived securely.
-          </p>
-          <br />
-          <p>Easily modified to remove minimal analytics. Superior to Privnote.</p>
-          <br />
-          <p>Self-hosting is easy. 👏</p>
+                   <p>
+            "An anonymous blog posted a video showing the Pinellas County Republican [David Jolly], his wife and a staffer rushing through security screening at Miami International Airport."</p>
         </div>
       ),
-      link: "https://twitter.com/FrederikMarkor/status/1615299856205250560",
+      link: "https://floridapolitics.com/archives/192569-david-jolly-campaign-says-ron-desantis-consultant-behind-anonymous-video-attack/",
       author: {
-        name: <Author href="https://twitter.com/FrederikMarkor">Frederik Markor</Author>,
-        title: <Title href="https://discreet.net">CEO @discreet</Title>,
-        image: "https://pbs.twimg.com/profile_images/1438061314010664962/NecuMIGR_400x400.jpg",
+        name: <Author href="https://twitter.com/Fla_Pol">Florida Politics</Author>
+        title: <Title>Jolly Campaign says Ron DeSantis Consultant Behind Anonymous Video Attack</Title>,
       },
     },
     {
       content: (
         <div>
-          <p>I'm particularly chuffed about this launch, for a couple of reasons:</p>
-          <ul>
-            <li>
-              ◆ Built on <TwitterHandle>@nextjs</TwitterHandle> + <TwitterHandle>@upstash</TwitterHandle>, hosted on{" "}
-              <TwitterHandle>@vercel</TwitterHandle>
-            </li>
-            <li>◆ 100% free to use & open source</li>
-            <li>◆ One-click deploy via Vercel + Upstash integration</li>
-          </ul>
-          <p>Deploy your own → http://vercel.fyi/envshare</p>
+          <p>"2.5 gigabytes of Florida related campaign data...</p>
+          <p>...from the DCCC to [HelloFLA]</p>         
         </div>
       ),
       link: "https://twitter.com/steventey/status/1615035241772482567?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615035241772482567%7Ctwgr%5E1db44bb10c690189e24c980fcd787299961c34c6%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fsteventey2Fstatus2F1615035241772482567widget%3DTweet",
       author: {
-        name: <Author href="https://twitter.com/steventey">Steven Tey</Author>,
-        title: <Title href="https://vercel.com">Senior Developer Advocate at Vercel</Title>,
-        image: "https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg",
-      },
+        name: <Author href="https://www.cnn.com/2019/04/18/politics/full-mueller-report-pdf/index.html">Mueller Report</Author>,
+        title: <Title href="https://www.cnn.com/2019/04/18/politics/full-mueller-report-pdf/index.html">Page 51</Title>,
+            },
     },
-    {
-      content: (
-        <div>
-          <p>
-            Congratulations on the launch <TwitterHandle>@chronark_</TwitterHandle>👏! This is such a valuable product
-            for developers. Icing on the cake is that it's open source! ✨
-          </p>
-        </div>
-      ),
-      link: "https://twitter.com/DesignSiddharth/status/1615293209164546048",
-      author: {
-        name: <Author href="https://twitter.com/DesignSiddharth">@DesignSiddharth</Author>,
-        image: "https://pbs.twimg.com/profile_images/1613772710009765888/MbSblJYf_400x400.jpg",
-      },
-    },
-  ];
+ 
 
   return (
     <section className="container mx-auto">
